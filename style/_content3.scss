@@ -1,0 +1,9 @@
+#content3 {
+    background-color: pink;
+    height: 100vh;
+    position: relative;
+}
+
+.c3 {
+    @include flexCenter;
+}

@@ -1,0 +1,43 @@
+// variables //
+$btns: red;
+$textColor: black;
+$textFont: montserrat;
+$headingFont: montserrat;
+$flareBorder: #f8f9fa;
+
+// snippets //
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin content {
+    width: 100%;
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+@mixin imgCover {
+    background-color: black;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+@mixin overlay {
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/j.jpg");
+}
+
+@mixin border {
+    border-style: solid;
+    border-color: $flareBorder;
+}
+
+
+
+

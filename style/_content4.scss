@@ -1,0 +1,10 @@
+#content4 {
+    background-color: pink;
+    width: full-width;
+    height: 100vh;
+    position: relative;
+}
+
+.c4 {
+    @include flexCenter;
+}

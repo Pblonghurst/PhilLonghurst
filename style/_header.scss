@@ -1,0 +1,19 @@
+// header //
+header {
+    @include content;
+    @include flexCenter;
+    margin: 0 !important;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/m.jpg");
+    @include imgCover;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(231, 228, 228) !important;
+}
+

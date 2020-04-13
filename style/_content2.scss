@@ -1,0 +1,90 @@
+#content2 {
+    background-color: rgb(89, 90, 82);
+    width: full-width;
+    height: 160vh;
+    position: relative;
+}
+
+.one {
+    background: url("/images/dnd.png");
+    width: full-width;
+    height: 80vh;
+    @include flexCenter;
+    @include border;
+    @include imgCover;
+    border-width: 10px 5px 5px 10px;
+}
+
+.one:hover {
+    @include imgCover;
+    cursor: pointer;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/dnd.png");
+    transition: 0.4s ease;
+}
+
+.two {
+    background: url("/images/emlaw.png");
+    width: full-width;
+    height: 80vh;
+    @include flexCenter;
+    @include border;
+    @include imgCover;
+    border-width: 10px 10px 5px 5px;
+}
+
+.two:hover {
+    @include imgCover;
+    cursor: pointer;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/emlaw.png");
+    transition: 0.4s ease;
+}
+
+.three {
+    background: url("/images/actiph.png");
+    width: full-width;
+    height: 80vh;
+    @include flexCenter;
+    @include border;
+    @include imgCover;
+    border-width: 5px 5px 10px 10px;
+}
+
+.three:hover {
+    @include imgCover;
+    cursor: pointer;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/actiph.png");
+    transition: 0.4s ease;
+}
+
+.four {
+    background: url("/images/glorious.png");
+    width: full-width;
+    height: 80vh;
+    @include flexCenter;
+    @include border;
+    @include imgCover;
+    border-width: 5px 10px 10px 5px;
+}
+
+.four:hover {
+    @include imgCover;
+    cursor: pointer;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/glorious.png");
+    transition: 0.4s ease;
+}

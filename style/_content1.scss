@@ -1,0 +1,15 @@
+#content1 {
+    background:  green;
+    width: full-width;
+}
+
+.c1 {
+    @include border;
+    @include flexCenter;
+    background-color: pink;
+    width: full-width;
+    height: 100vh;
+    padding: 0 !important;
+    border-width: 10px 10px 0px 10px;
+}
+

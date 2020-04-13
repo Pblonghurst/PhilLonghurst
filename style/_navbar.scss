@@ -1,0 +1,37 @@
+nav {
+    height: 100px;
+    width: full-width;
+    background-color: peachpuff;
+    @include flexCenter();
+    position: sticky;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #f1f1f1;
+    overflow: hidden;
+  }
+
+nav ul li {
+    float: left;
+  }
+  
+nav ul li a {
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    padding: 10px 80px;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+// .navi {
+
+// }
+
+

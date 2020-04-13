@@ -1,0 +1,38 @@
+// headings //
+h1 {
+    font-size: 100px !important;
+}
+
+h2 {
+    font-size: 48px !important;
+}
+
+h3{
+    font-size: 36px !important;
+}
+
+h4{
+    font-size: 24px !important;
+}
+
+h5{
+    font-size: 16px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $textFont;
+    font-weight: 900 !important;
+}
+
+// text //
+p {
+    font-size: 12px;
+    color: black;
+    font-family: $textFont;
+}
+
+a {
+    font-size: 12px;
+    color: black;
+    font-family: $textFont;
+}
