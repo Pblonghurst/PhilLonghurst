@@ -8,8 +8,22 @@
     @include flexCenter;
     background-color: pink;
     width: full-width;
-    height: 100vh;
+    height: 80vh;
     padding: 0 !important;
     border-width: 10px 10px 0px 10px;
+
+
+   
+    @include flexCenter;
+    margin: 0 !important;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/j.jpg");
+    @include imgCover;
+    text-align: center;
 }
+
+
 
