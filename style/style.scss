@@ -14,6 +14,15 @@
 * {
     margin: 0;
     padding: 0;
+    z-index: 5 !important;
+}
+
+.p-padding {
+    padding: 0% 20% 2.5% 20%;
+}
+
+.h-padding {
+    padding: 2.5% 15% 2.5% 15%;
 }
 
 // .no-gutter, .container-fluid, .container, .row, nav {

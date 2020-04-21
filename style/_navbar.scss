@@ -2,6 +2,56 @@
 nav div.container {
     margin: 0 !important;
     padding: 0 !important;
+    z-index: 10001 !important;
+}
+ 
+// .container full width fix //
+@media (min-width: 1200px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
+}
+
+@media (min-width: 576px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
+}
+
+@media (min-width: 576px) {
+    nav div.container {
+    max-width: 100% !important;
+    }
 }
 
 .nav {
@@ -10,6 +60,7 @@ nav div.container {
     position: fixed;
     line-height: 100px;
     text-align: center;
+    z-index: 10000 !important;
 }
 
 .nav div.logo {
@@ -71,6 +122,7 @@ nav div.container {
     padding-bottom: 30px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    z-index: 10001 !important;
 }
 
 
@@ -318,7 +370,7 @@ nav div.container {
 
 .affix {
     padding: 0;
-    background-color: #111;
+    background-color: $navColor;
 }
 
 .myH2 {
@@ -331,6 +383,7 @@ nav div.container {
 	padding-right:15%;
 	font-size: 20px;
 }
+
 @media all and (max-width:700px){
 	.myP {
 		padding:2%;

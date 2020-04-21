@@ -1,9 +1,14 @@
 // variables //
 $btns: red;
-$textColor: black;
+$textColor: rgb(255, 255, 255);
+$linkColor: rgb(255, 255, 255);
+$headingColor: rgb(255, 255, 255);
 $textFont: montserrat;
 $headingFont: montserrat;
-$flareBorder: #f8f9fa;
+$flareBorder: #444444;
+$navColor: #222222;
+$backgroundColor: rgb(31, 30, 29);
+$footerColor: #444444;
 
 // snippets //
 @mixin flexCenter {

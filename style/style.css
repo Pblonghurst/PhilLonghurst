@@ -24,6 +24,7 @@ header {
 h1 {
   text-transform: uppercase;
   color: #e7e4e4 !important;
+  z-index: 2 !important;
 }
 
 h1 {
@@ -49,17 +50,18 @@ h5 {
 h1, h2, h3, h4, h5, h6 {
   font-family: montserrat;
   font-weight: 900 !important;
+  color: white;
 }
 
 p {
   font-size: 12px;
-  color: black;
+  color: white;
   font-family: montserrat;
 }
 
 a {
   font-size: 24px !important;
-  color: black;
+  color: white;
   font-family: montserrat;
 }
 
@@ -89,10 +91,11 @@ header {
 h1 {
   text-transform: uppercase;
   color: #e7e4e4 !important;
+  z-index: 2 !important;
 }
 
 footer {
-  background-color: red;
+  background-color: #444444;
   width: full-width;
   height: 25vh;
 }
@@ -101,6 +104,55 @@ footer {
 nav div.container {
   margin: 0 !important;
   padding: 0 !important;
+  z-index: 10001 !important;
+}
+
+@media (min-width: 1200px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 576px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 576px) {
+  nav div.container {
+    max-width: 100% !important;
+  }
 }
 
 .nav {
@@ -109,6 +161,7 @@ nav div.container {
   position: fixed;
   line-height: 100px;
   text-align: center;
+  z-index: 10000 !important;
 }
 
 .nav div.logo {
@@ -171,6 +224,7 @@ nav div.container {
   padding-bottom: 30px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  z-index: 10001 !important;
 }
 
 /* Media qurey section */
@@ -433,7 +487,7 @@ nav div.container {
 
 .affix {
   padding: 0;
-  background-color: #111;
+  background-color: #222222;
 }
 
 .myH2 {
@@ -455,38 +509,19 @@ nav div.container {
 }
 
 #content1 {
-  background: green;
   width: full-width;
 }
 
 .c1 {
   border-style: solid;
-  border-color: #f8f9fa;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: pink;
+  border-color: #444444;
+  background-color: #1f1e1d;
   width: full-width;
   height: 80vh;
   padding: 0 !important;
   border-width: 10px 10px 0px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("/images/j.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/j.jpg");
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+  text-align: left;
 }
 
 #content2 {
@@ -510,7 +545,7 @@ nav div.container {
       -ms-flex-align: center;
           align-items: center;
   border-style: solid;
-  border-color: #f8f9fa;
+  border-color: #444444;
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -544,7 +579,7 @@ nav div.container {
       -ms-flex-align: center;
           align-items: center;
   border-style: solid;
-  border-color: #f8f9fa;
+  border-color: #444444;
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -578,7 +613,7 @@ nav div.container {
       -ms-flex-align: center;
           align-items: center;
   border-style: solid;
-  border-color: #f8f9fa;
+  border-color: #444444;
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -612,7 +647,7 @@ nav div.container {
       -ms-flex-align: center;
           align-items: center;
   border-style: solid;
-  border-color: #f8f9fa;
+  border-color: #444444;
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -633,7 +668,7 @@ nav div.container {
 }
 
 #content3 {
-  background-color: pink;
+  background-color: #1f1e1d;
   height: 100vh;
   position: relative;
 }
@@ -651,7 +686,7 @@ nav div.container {
 }
 
 #content4 {
-  background-color: pink;
+  background-color: #1f1e1d;
   width: full-width;
   height: 100vh;
   position: relative;
@@ -672,5 +707,14 @@ nav div.container {
 * {
   margin: 0;
   padding: 0;
+  z-index: 5 !important;
+}
+
+.p-padding {
+  padding: 0% 20% 2.5% 20%;
+}
+
+.h-padding {
+  padding: 2.5% 15% 2.5% 15%;
 }
 /*# sourceMappingURL=style.css.map */
