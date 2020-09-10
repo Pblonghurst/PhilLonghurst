@@ -1,18 +1,53 @@
 #content1 {
     width: full-width;
+    height: auto;
+    background-color: $backgroundColor;
 }
 
 .c1 {
-    @include border;
-    // @include flexCenter;
-    background-color: $backgroundColor;
-    width: full-width;
-    height: 80vh;
+    background-color: $PortfolioColor;
     padding: 0 !important;
-    border-width: 10px 10px 0px 10px;
-    margin: 0 !important;
-    text-align: left;
+    margin:  30px !important;
+    height: 600px;
+    border: 5px solid red;
+    position: relative;
 }
+
+.c1:hover {
+    border-color: green;
+    transition: ease 0.4s;
+    cursor: pointer;
+}
+
+.portfolio-info {
+    padding: 30px;
+}
+
+// portfolio-imgs //
+.portfolio-img1 {
+    background: url("https://assets.codepen.io/285131/pink-pastel-juicy-banana.jpg");
+    width: full-width;
+    height: 80%;
+    @include flexCenter;
+    @include imgCover;
+}
+
+.portfolio-img2 {
+    background: url("/images/dnd.png");
+    width: full-width;
+    height: 80%;
+    @include flexCenter;
+    @include imgCover;
+}
+
+.portfolio-img3 {
+    background: url("/images/dnd.png");
+    width: full-width;
+    height: 80%;
+    @include flexCenter;
+    @include imgCover;
+}
+
 
 
 

@@ -9,6 +9,7 @@ $flareBorder: #444444;
 $navColor: #222222;
 $backgroundColor: rgb(31, 30, 29);
 $footerColor: #444444;
+$PortfolioColor: blue;
 
 // snippets //
 @mixin flexCenter {
@@ -19,7 +20,7 @@ $footerColor: #444444;
 
 @mixin content {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     background-color: lightcoral;
 }
 
