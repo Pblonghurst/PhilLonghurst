@@ -7,7 +7,7 @@ header {
         rgba(0, 0, 0, 0.45), 
         rgba(0, 0, 0, 0.45)
         ), 
-        url("/images/u.jpg");
+        url("/images/bluepink.jpg");
     @include imgCover;
     text-align: center;
 }
@@ -16,5 +16,18 @@ h1 {
     text-transform: uppercase;
     color: rgb(231, 228, 228) !important;
     z-index: 2 !important;
+}
+
+#media-header {
+    @include content;
+    @include flexCenter;
+    margin: 0 !important;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), 
+        url("/images/a.jpg");
+    @include imgCover;
+    text-align: center;
 }
 

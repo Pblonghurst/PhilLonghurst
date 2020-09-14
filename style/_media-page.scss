@@ -1,0 +1,27 @@
+.media-page {
+    width: full-width;
+    height: 100vh;
+    background-color: peachpuff;
+}
+
+.vid {
+    height: 300px;
+    width: 300px;
+    @include imgCover;
+}
+
+.png {
+    height: 200px;
+    width: 200px;
+}
+
+.hovers:hover > .png {
+    transform: translateX(300px) scale(0.5) rotate(45deg);
+    transition: ease 0.4s;   
+}
+
+.hover-me {
+    background-color: black;
+    width: fit-content;
+    cursor: pointer;
+}
