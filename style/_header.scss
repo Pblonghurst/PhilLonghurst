@@ -1,5 +1,5 @@
 // header //
-header {
+header, #media-header  {
     @include content;
     @include flexCenter;
     margin: 0 !important;
@@ -7,7 +7,7 @@ header {
         rgba(0, 0, 0, 0.45), 
         rgba(0, 0, 0, 0.45)
         ), 
-        url("/images/bluepink.jpg");
+        url("../assets/images/bluepink.jpg");
     @include imgCover;
     text-align: center;
 }
@@ -18,16 +18,4 @@ h1 {
     z-index: 2 !important;
 }
 
-#media-header {
-    @include content;
-    @include flexCenter;
-    margin: 0 !important;
-    background:  linear-gradient(
-        rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.45)
-        ), 
-        url("/images/a.jpg");
-    @include imgCover;
-    text-align: center;
-}
 

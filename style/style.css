@@ -1,4 +1,4 @@
-header {
+header, #media-header {
   width: 100%;
   height: 60vh;
   background-color: lightcoral;
@@ -12,8 +12,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("/images/bluepink.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/bluepink.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("../assets/images/bluepink.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/bluepink.jpg");
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,29 +25,6 @@ h1 {
   text-transform: uppercase;
   color: #e7e4e4 !important;
   z-index: 2 !important;
-}
-
-#media-header {
-  width: 100%;
-  height: 60vh;
-  background-color: lightcoral;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("/images/a.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/a.jpg");
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
 }
 
 h1 {
@@ -88,7 +65,7 @@ a {
   font-family: montserrat;
 }
 
-header {
+header, #media-header {
   width: 100%;
   height: 60vh;
   background-color: lightcoral;
@@ -102,8 +79,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("/images/bluepink.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/bluepink.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("../assets/images/bluepink.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/bluepink.jpg");
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,29 +92,6 @@ h1 {
   text-transform: uppercase;
   color: #e7e4e4 !important;
   z-index: 2 !important;
-}
-
-#media-header {
-  width: 100%;
-  height: 60vh;
-  background-color: lightcoral;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("/images/a.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/a.jpg");
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
 }
 
 footer {
@@ -1008,38 +962,47 @@ main {
 }
 
 .media-page {
+  padding-top: 50px;
   width: full-width;
   height: 100vh;
-  background-color: peachpuff;
+  background-color: #1f1e1d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.vid {
-  height: 300px;
-  width: 300px;
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.png {
-  height: 200px;
-  width: 200px;
+.media-page2 {
+  padding-top: 50px;
+  width: full-width;
+  height: 100vh;
+  background-color: #1f1e1d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.hovers:hover > .png {
-  -webkit-transform: translateX(300px) scale(0.5) rotate(45deg);
-          transform: translateX(300px) scale(0.5) rotate(45deg);
-  -webkit-transition: ease 0.4s;
-  transition: ease 0.4s;
-}
-
-.hover-me {
-  background-color: black;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  cursor: pointer;
+.demo, .people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 * {

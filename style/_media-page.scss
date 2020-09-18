@@ -1,27 +1,23 @@
 .media-page {
+    padding-top: 50px;
     width: full-width;
     height: 100vh;
-    background-color: peachpuff;
+    background-color: #1f1e1d;
+    @include flexCenterTop;
 }
 
-.vid {
-    height: 300px;
-    width: 300px;
-    @include imgCover;
+.bank {
+    @include flexCenterTop;
 }
 
-.png {
-    height: 200px;
-    width: 200px;
+.media-page2 {
+    padding-top: 50px;
+    width: full-width;
+    height: 100vh;
+    background-color: #1f1e1d;
+    @include flexCenterTop;
 }
 
-.hovers:hover > .png {
-    transform: translateX(300px) scale(0.5) rotate(45deg);
-    transition: ease 0.4s;   
-}
-
-.hover-me {
-    background-color: black;
-    width: fit-content;
-    cursor: pointer;
+.demo, .people {
+    @include flexCenterTop;
 }

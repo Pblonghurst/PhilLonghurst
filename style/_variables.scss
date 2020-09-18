@@ -18,6 +18,11 @@ $PortfolioColor: blue;
     align-items: center;
 }
 
+@mixin flexCenterTop {
+    display: flex;
+    justify-content: center;
+}
+
 @mixin content {
     width: 100%;
     height: 60vh;
